@@ -28,7 +28,7 @@ st.title("Energy Price Forecasting")
 st.write(f"Model: ARIMA({params['optimal_p']}, {params['optimal_d']}, {params['optimal_q']})")
 
 forecast_pct = st.slider(
-    "Forecast Days",
+    "Forecast amount of days",
     min_value=5,
     max_value=40,
     value=20,
